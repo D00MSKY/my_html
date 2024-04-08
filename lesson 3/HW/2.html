@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+
+        }
+        h3{
+            margin: 100px 0 0 0
+        }
+        section{
+            height: 100vh;
+            display: flex;
+        justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 3em;
+        }
+        #red{
+            background-color: #de5454;
+        }
+        #green{
+            background-color: #95e775;
+        }
+        #blue{
+            background-color: #679ff3;
+        }
+        p{
+            margin: 100px 150px 150px 150px;
+        }
+    </style>
+</head>
+<body>
+
+<section id="red"><h3>Section title</h3>
+    <p>Ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dolor excepturi, id ipsum libero minima
+        molestias nihil officia quisquam recusandae, repellat repellendus similique soluta velit voluptates voluptatum?
+        Est, repudiandae?</p>
+    <a href="#green" style="color: black">&#11015;</a>
+</section>
+
+<section id="green">
+    <a href="#red" style="color: black">&#11014;</a>
+    <h3>Section title</h3>
+    <p>Ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dolor excepturi, id ipsum libero minima
+        molestias nihil officia quisquam recusandae, repellat repellendus similique soluta velit voluptates voluptatum?
+        Est, repudiandae?</p>
+    <a href="#blue" style="color: black">&#11015;</a>
+</section>
+
+<section id="blue">
+    <a href="#green" style="color: black">&#11014;</a>
+    <h3>Section title</h3>
+    <p>Ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dolor excepturi, id ipsum libero minima
+        molestias nihil officia quisquam recusandae, repellat repellendus similique soluta velit voluptates voluptatum?
+        Est, repudiandae?</p>
+</section>
+</body>
+</html>
