@@ -4,46 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-  <style>
-    *{
-      margin: 0;
-    }
-    main{
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .flex{
-      border: none;
-      display: flex;
-      flex-direction: column;
-    }
-    div{
-      height: 400px;
-      width: 350px;
-      border: #a4a4a4 solid 1px;
-    }
-    .upper{
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-      align-items: center;
-      /*background-color: #95e775;*/
-    }
-    .lower{
-      height: 70px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 10px;
-    }
-    img{
-      width: 60%;
-      margin: 20px 0;
-    }
-
-  </style>
+  <link rel="stylesheet" href="Style2.css">
 
 </head>
 <body>
@@ -51,16 +12,21 @@
 <main>
   <div class="flex">
     <div class="upper">
-      <img src="../Assets/instagram.png" alt="image">
-      <input type="text">
-      <input type="password">
-      <button>Увійти</button>
-      <span>АБО</span>
-      <a>Увійти через Facebook</a>
-      <a>Забули пароль?</a>
+      <img id="instagram" src="../Assets/instagram.png" alt="image">
+      <form>
+        <input type="text" class="login" placeholder="Номер телефону, ім'я користувача або електронна адреса" required>
+        <input type="password" class="pass" placeholder="Пароль" required>
+      </form>
+      <button><b>Увійти</b></button>
+      <span><b>АБО</b></span>
+      <div class="facebook">
+        <img id="fbimg" src="../Assets/icons8-facebook-48.png" alt="image">
+        <a class="fb" href="../Assets/Facebook.html">Увійти через Facebook</a>
+      </div>
+      <a id="forgot" href="../Assets/Recovery.html">Забули пароль?</a>
     </div>
     <div class="lower">
-      <pre><span>Не маєте облікового запису?</span> <a>Зареєструйтеся</a></pre>
+      <pre><span>Не маєте облікового запису?</span> <a id="reg" href="../Assets/Register.html">Зареєструйтеся</a></pre>
     </div>
   </div>
 </main>
