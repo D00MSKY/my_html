@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        *{
+            margin: 0;
+        }
+
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+        }
+        .square{
+            height: 491px;
+            width: 321px;
+            background-color: rgba(217, 217, 217, 0.30);
+            border: 4px solid #554C4C;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .flex{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #middle{
+            border: 4px solid #65856E;
+
+        }
+        #main {
+            width: 1512px;
+            height: 982px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+
+        }
+        span{
+            color: #000;
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        p{
+            color: #000;
+            text-align: center;
+            font-family: Inter, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 10px 30px;
+        }
+        .ellipse{
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            border: 4px solid #554C4C;
+            border-radius: 50%;
+            position: absolute;
+            top: -55px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #left>.ellipse{
+            background-image: url("../Assets/Ds3 Tool.png");
+            background-size: 60%;
+            background-repeat: no-repeat;
+        }
+        #middle>.ellipse{
+            background-image: url("../Assets/Chessboard.png");
+            background-size: 60%;
+            background-repeat: no-repeat;
+            border: 4px solid #65856E;
+        }
+        #right>.ellipse{
+            background-image: url("../Assets/Battle.png");
+            background-size: 60%;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="main">
+    <div class="flex">
+        <div class="square" id="left">
+            <div class="ellipse"></div>
+            <span>Lorem</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+        <div class="square" id="middle">
+            <div class="ellipse"></div>
+            <span>Lorem</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+        <div class="square" id="right">
+            <div class="ellipse"></div>
+            <span>Lorem</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
