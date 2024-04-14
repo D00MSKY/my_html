@@ -1,0 +1,71 @@
+
+@media screen and (max-width: 600px){
+
+
+    #linkFlex {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    #bannerFlex{
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 1.5vh;
+    }
+    #banner{
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #linkFlex > div {
+        width: 100%;
+        height: 5vh;
+        border-radius: 5px;
+        margin: 10px 10px 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+.article{
+    height: 10vh;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#footerFlex{
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-top: 1.5vh;
+}
+#articleFlexFirst, #articleFlexSecond {
+    flex-direction: column;
+    width: 95%;
+    height: 24.8vh;
+    align-items: center;
+    justify-content: space-between;
+}
+#articleFlexFirst{
+    margin-bottom: 0.5vh;
+}
+#articleFlexSecond{
+    margin-top: 1.05vh;
+}
+#articleFlexColumn{
+height: 44.5vh;
+    align-items: center;
+    justify-content: space-around;
+}
+}
