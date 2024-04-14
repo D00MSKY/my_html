@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+    .grid{
+        grid-template-areas:
+        "header header header"
+        "left left left"
+        "right right right";
+        grid-template-rows: 2fr 6fr 2fr;
+    }
+    #header{
+        margin: 1vh;
+    }
+    #left{
+        margin: 0 1vh;
+    }
+    #right{
+        margin: 1vh;
+    }
+}
