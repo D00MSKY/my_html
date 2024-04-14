@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+
+    .grid{
+    grid-template-areas:
+    "A A A"
+    "B B B"
+    "B B B"
+    "C D E"
+    "F F F";
+
+        grid-template-rows: 1fr 2.5fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #B, #C, #D, #E, #F{
+        margin: 1vh;
+    }
+}

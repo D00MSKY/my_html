@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.grid>div{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-gap: 5px;
+    background-color: snow;
+    grid-template-areas:
+    "A A A A"
+    "B B B F"
+    "C D E F";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#A{
+    grid-area: A;
+    margin: 1vh 1vh 0 1vh;
+}
+#B{
+    grid-area: B;
+    margin: 0 0 0 1vh;
+}
+#C{
+    grid-area: C;
+    margin: 0 0 1vh 1vh;
+}
+#D{
+    grid-area: D;
+    margin: 0 0 1vh 0;
+}
+#E{
+    grid-area: E;
+    margin: 0 0 1vh 0;
+}
+#F{
+    grid-area: F;
+    margin: 0 1vh 1vh 0;
+}
