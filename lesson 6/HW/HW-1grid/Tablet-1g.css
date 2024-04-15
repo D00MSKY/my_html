@@ -1,0 +1,33 @@
+@media screen and (min-width: 601px) and (max-width: 1200px){
+    *{
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+.grid{
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr;
+    width: 100%;
+    grid-template-areas:
+    "link1 link1 link1 link1 link2 link2 link2 link2 link3 link3 link3 link3 link4 link4 link4 link4 none none none none none none none none"
+    "banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner banner"
+    "article1 article1 article1 article1 article1 article1 article2 article2 article2 article2 article2 article2 article3 article3 article3 article3 article3 article3 article4 article4 article4 article4 article4 article4"
+    "article1 article1 article1 article1 article1 article1 article2 article2 article2 article2 article2 article2 article3 article3 article3 article3 article3 article3 article4 article4 article4 article4 article4 article4"
+    "footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+#article2{
+    margin-right: 0;
+}
+#article3{
+    margin-left: 0;
+}
+    .article{
+        justify-content: center;
+        align-items: center;
+    }
+    .article>span{
+        rotate: -90deg;
+        width: 100%;
+        margin: 0;
+    }
+
+}

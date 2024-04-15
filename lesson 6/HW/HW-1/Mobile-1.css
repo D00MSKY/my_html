@@ -15,7 +15,7 @@
         width: 95%;
         margin-left: 2.5%;
         margin-right: 2.5%;
-        margin-bottom: 1.5vh;
+        margin-bottom: 1.4vh;
     }
     #banner{
     height: 15vh;
@@ -48,7 +48,7 @@
     justify-content: center;
     width: 97%;
     margin-left: 1.5%;
-    margin-top: 1.5vh;
+    margin-top: 1.4vh;
 }
 #articleFlexFirst, #articleFlexSecond {
     flex-direction: column;
@@ -58,13 +58,13 @@
     justify-content: space-between;
 }
 #articleFlexFirst{
-    margin-bottom: 0.5vh;
+    margin-bottom: 0.4vh;
 }
 #articleFlexSecond{
-    margin-top: 1.05vh;
+    margin-top: 0.95vh;
 }
 #articleFlexColumn{
-height: 44.5vh;
+height: 44.4vh;
     align-items: center;
     justify-content: space-around;
 }
